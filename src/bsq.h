@@ -5,7 +5,7 @@
 ** Login   <lauze_a@epitech.net>
 **
 ** Started on  Mon Dec 15 10:18:46 2014 lauze_a lauze_a
-** Last update Mon Dec 15 10:44:55 2014 lauze_a lauze_a
+** Last update Mon Dec 15 11:41:12 2014 lauze_a lauze_a
 */
 
 #ifndef BSQ_H_
@@ -25,5 +25,7 @@
 */
 
 int	main(int ac, char **av);
+int	parse_file(char *file);
+int	is_o(char *buf);
 
 #endif /* !BSQ_H_ */

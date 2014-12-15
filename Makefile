@@ -5,7 +5,7 @@
 ## Login   <lauze_a@epitech.net>
 ## 
 ## Started on  Mon Oct 20 09:06:13 2014 lauze_a lauze_a
-## Last update Mon Dec 15 10:38:06 2014 lauze_a lauze_a
+## Last update Mon Dec 15 10:55:16 2014 lauze_a lauze_a
 ##
 
 SRC=		./lib/my/my_aff_alpha.c \
@@ -55,6 +55,7 @@ SRC=		./lib/my/my_aff_alpha.c \
 		./lib/my/my_strupcase.c \
 		./lib/my/my_swap.c \
 		./src/main.c \
+		./src/get_next_line.c \
 		./src/parse.c
 
 NAME=		bsq
