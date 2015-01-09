@@ -1,11 +1,11 @@
 /*
 ** my.h for my in /home/lauze_a/rendu/Piscine_C_J11/lib/my
-** 
+**
 ** Made by lauze_a lauze_a
 ** Login   <lauze_a@epitech.net>
-** 
+**
 ** Started on  Mon Oct 20 08:52:25 2014 lauze_a lauze_a
-** Last update Mon Oct 20 13:53:53 2014 lauze_a lauze_a
+** Last update Tue Jan  6 14:11:08 2015 lauze_a lauze_a
 */
 
 #ifndef _MY_H_
@@ -13,6 +13,7 @@
 
 void	my_putchar(char c);
 int	my_isneg(int nb);
+int	my_error(char *str);
 int	my_is_neg(char *str);
 int	my_put_nbr(int nb);
 int	my_swap(int *a,int *b);
