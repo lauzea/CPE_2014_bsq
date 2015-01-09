@@ -5,7 +5,7 @@
 ** Login   <lauze_a@epitech.net>
 **
 ** Started on  Mon Dec 15 10:26:11 2014 lauze_a lauze_a
-** Last update Fri Jan  9 11:36:41 2015 lauze_a lauze_a
+** Last update Fri Jan  9 13:22:59 2015 lauze_a lauze_a
 */
 
 #include <unistd.h>
@@ -34,12 +34,12 @@ char	*parse_file(char *file)
     return (NULL);
   if ((rd = read(fd, buf, BUF_SIZE)) == -1)
     return (NULL);
-  if ((tab = malloc(100 *sizeof (char *))) == NULL)
+  if ((tab = malloc(100 * sizeof (char *))) == NULL)
     return (NULL);
  while (++count != 100)
    if ((tab = malloc(100 * sizeof(*tab))) == NULL)
      return (NULL);
  while (tab[i] != NULL)
-   tab[++i][++j] = buf[++i][++j];
- is_ok(tab);
+   tab[++i][++j] = buf[++i];
+ printf("%s\n", buf);
 }

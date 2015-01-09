@@ -5,7 +5,7 @@
 ** Login   <lauze_a@epitech.net>
 **
 ** Started on  Mon Dec 15 10:18:46 2014 lauze_a lauze_a
-** Last update Fri Jan  9 11:35:02 2015 lauze_a lauze_a
+** Last update Fri Jan  9 13:17:15 2015 lauze_a lauze_a
 */
 
 #ifndef BSQ_H_
@@ -27,8 +27,6 @@
 int	main(int ac, char **av);
 char	*parse_file(char *file);
 char	*my_realloc(char *old, int size);
-int	away_from_line(char **tab, int i);
-int	away_from_column(char **tab, int j);
-int	is_ok(char **tab);
+int	check_o(char **tab);
 
 #endif /* !BSQ_H_ */
